@@ -32,4 +32,31 @@ form {
     color: grey;
 }
 
+#search-btn {
+    padding: 20px 30px;
+    background-color: blue;
+    color: bisque;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
 
+#search-btn:hover {
+    background-color: brown;
+}
+
+.search-result {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.search-result:hover img {
+    transform: scale(1.05);
+}
