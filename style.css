@@ -14,4 +14,22 @@ h1 {
     margin-bottom: 70px;
 }
 
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+#search-input {
+    width: 70%;
+    max-width: 500px;
+    padding: 20px 30px;
+    border: none;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    font-size: 20px;
+    color: grey;
+}
+
 
