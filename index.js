@@ -1,34 +1,56 @@
-const key = "RZEIOVfPhS7vMLkFdd2TSKGFBS4o9_FmcV1Nje3FSjw";
+const accesKey = "RZEIOVfPhS7vMLkFdd2TSKGFBS4o9_FmcV1Nje3FSjw";
 
-const form = document.querySelector("form");
-const inputSearch = docuument.getElementById("input-search");
-const results = document.querySelector(".results");
-const moreImg = document.getElementById("more-img");
+const formEl = document.querySelector("form");
+const searchInputEl = docuument.getElementById("search-input");
+const searchResultsEl = document.querySelector(".search-results");
+const showMoreBtnEl = document.getElementById("show-more-btn");
 
-async function imageSearch() {
-    inputData = inputSearch.value;
+let inputData = "";
+let page = 1;
+
+// Images searching
+async function searchImages() {
+    inputData = inputSearchEl.value;
     const url = `https://api.unsplash.com/search/photos?page=${page}&query=${inputData}&client_id=${accessKey}`;
 
     const response = await fetch(url);
     const data = await response.json();
     if (page === 1) {
-        results.innerHTML = "";
+        searchResultsEl.innerHTML = "";
     }
 
     const results = data.results;
 
+    // Images results
     results.map((result) => {
-        const imageList = document.createElement("div");
-        imageList.classList.add("results");
-        const image = dicument.createElement("img");
-        imageList.src = result.urls.small;
-        imageList.alt = result.alt_description;
+        const imageWrapper = document.createElement("div");
+        imageWrapper.classList.add("results");
+        const image = document.createElement("img");
+        image.src = result.urls.small;
+        image.alt = result.alt_description;
         const imageLink = document.createElement("a");
         imageLink.href = result.links.html;
-        // imageLink.target = 
+        imageLink.target = "_blank";
         imageLink.textContent = result.alt_description;
         
-        imageList.appendChild()
-    }       
-    );
+        imageWrapper.appendChild(image);
+        imageWrapper.appendChild(imageLink);
+        resultsEl.appendChild(imageWrapper);
+    });
+
+    page ++;
+
+    if (page > 1) {
+        moreImgBtnEl.style.display = "block";
+    };
 }
+
+formEl.addEventListener("submit", (event) => {
+    event.preventDefault();
+    page = 1; 
+    searchImages();
+});
+
+showMoreBtnEl.addEventListener("click", () => {
+    searchImages();
+});
