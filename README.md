@@ -43,9 +43,9 @@ We have prioritized our website performance to provide users with a fast and smo
 We value accessibility and have designed our website to be fully responsive and adaptive to various screen sizes and devices. Users can enjoy a consistent and maximum experience whether they access it from a desktop, laptop, tablet or smartphone thus easily engaging with our service.
 
 ### How the website app looks like
-- ![Relative](/Screenshot from 2023-07-10 17-50-20.png)
-- ![Relative](/Screenshot from 2023-07-10 17-50-41.png)
-- ![Relative](/Screenshot from 2023-07-10 17-50-48.png)
+- ![Relative1](/Screenshot from 2023-07-10 17-50-20.png)
+- ![Relative2](/Screenshot from 2023-07-10 17-50-41.png)
+- ![Relative3](/Screenshot from 2023-07-10 17-50-48.png)
 
 ## Technology used
 - HTML (Hypertext Markup Language): The standard markup language for creating the structure of web pages.
