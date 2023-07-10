@@ -43,8 +43,13 @@ We have prioritized our website performance to provide users with a fast and smo
 We value accessibility and have designed our website to be fully responsive and adaptive to various screen sizes and devices. Users can enjoy a consistent and maximum experience whether they access it from a desktop, laptop, tablet or smartphone thus easily engaging with our service.
 
 ### How the website app looks like
+- When opening the website.
 - ![Relative1](./Screenshot%20from%202023-07-10%2017-50-20.png)
+
+- After searching for the images you want.
 - ![Relative2](./Screenshot%20from%202023-07-10%2017-50-41.png)
+
+- The more images button.
 - ![Relative3](./Screenshot%20from%202023-07-10%2017-50-48.png)
 
 ## Technology used
