@@ -1,4 +1,4 @@
-const accesKey = "RZEIOVfPhS7vMLkFdd2TSKGFBS4o9_FmcV1Nje3FSjw";
+const accessKey = "RZEIOVfPhS7vMLkFdd2TSKGFBS4o9_FmcV1Nje3FSjw";
 
 const formEl = document.querySelector("form");
 const searchInputEl = docuument.getElementById("search-input");
@@ -21,7 +21,6 @@ async function searchImages() {
 
     const results = data.results;
 
-    // Images results
     results.map((result) => {
         const imageWrapper = document.createElement("div");
         imageWrapper.classList.add("results");
@@ -41,7 +40,7 @@ async function searchImages() {
     page ++;
 
     if (page > 1) {
-        moreImgBtnEl.style.display = "block";
+        showMoreBtnEl.style.display = "block";
     };
 }
 
