@@ -42,3 +42,12 @@ The Easier Images website boasts a simple UI design that is user-friendly and ha
 We have prioritized our website performance to provide users with a fast and smooth browsing experience. Our development team implemented efficient coding practices, quqality images and image sizes plus minimized loading times to ensure a fast and responsive loading page. THis enables our users to access information quickly and enjoy a seamless interaction with our website.
 We value accessibility and have designed our website to be fully responsive and adaptive to various screen sizes and devices. Users can enjoy a consistent and maximum experience whether they access it from a desktop, laptop, tablet or smartphone thus easily engaging with our service.
 
+## Technology used
+- HTML (Hypertext Markup Language): The standard markup language for creating the structure of web pages.
+- CSS (Cascading Style Sheets): Used for styling and visually enhancing the website, including layout, colors, and fonts.
+- JavaScript: Used to add interactivity and dynamic functionality to the website, enhancing the user experience.
+
+## Author
+The author of this project is:-  `Antonia Tracy.`
+
+
