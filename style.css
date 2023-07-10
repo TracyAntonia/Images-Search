@@ -16,7 +16,12 @@ h1 {
     margin-bottom: 70px;
 }
 
-
+p{
+    font-size: x-large;
+    padding-bottom: 40px;
+    text-align: center; 
+    padding: 30px;
+}
 
 form {
     display: flex;
