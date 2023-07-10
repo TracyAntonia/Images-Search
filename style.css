@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Karla&family=Pacifico&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(198, 198, 204);
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     line-height: 2;
     margin: 0;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 h1 {
@@ -23,11 +23,13 @@ h1 {
     margin-bottom: 70px;
 }
 
+ 
 p{
     font-size: x-large;
     padding-bottom: 40px;
     text-align: center; 
     padding: 30px;
+ 
 }
 
 form {
@@ -47,8 +49,10 @@ form {
     font-size: 20px;
     color: grey;
     background-color: rgb(218, 218, 233);
+ 
 }
 
+ 
 #search-btn {
     padding: 20px 30px;
     background-color: blue;
@@ -65,13 +69,14 @@ form {
     background-color: brown;
 }
 
-.search-result {
+.search-results {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-between;
     max-width: 1300px;
     margin: 0 auto;
     padding: 30px;
+ 
 }
 
 .search-result:hover img {

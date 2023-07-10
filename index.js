@@ -1,7 +1,7 @@
 const accessKey = "RZEIOVfPhS7vMLkFdd2TSKGFBS4o9_FmcV1Nje3FSjw";
 
 const formEl = document.querySelector("form");
-const searchInputEl = docuument.getElementById("search-input");
+const searchInputEl = document.getElementById("search-input");
 const searchResultsEl = document.querySelector(".search-results");
 const showMoreBtnEl = document.getElementById("show-more-btn");
 
